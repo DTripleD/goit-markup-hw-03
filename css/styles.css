@@ -62,7 +62,11 @@ img{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    outline:1px solid #000000;
 }
+
+
+/* Main Page start */
 
 .container-hero{
     display: block
@@ -274,7 +278,7 @@ img{
 .adress, .tel-footer{
     font-style: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.5;
 
     color: var(--white);
 }
@@ -287,9 +291,9 @@ img{
     margin-bottom: 9px;
 }
 
-.sublist-footer{
+/* .sublist-footer{
     height: 21px;
-}
+} */
 
 .container-footer .logo{
     display: flex;
